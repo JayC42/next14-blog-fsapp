@@ -36,13 +36,13 @@ const Header = () => {
       <div className="text-center my-8">
         <h1 className="text-3xl sm:text-5xl font-bold">Latest Blogs</h1>
         <p className="mt-10 max-w-[740px] mx-auto text-xs sm:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quam
-          justo, sodales eget tristique at, posuere sed elit. Etiam nulla velit,
-          rhoncus quis finibus nec, aliquam sed mauris.
+          Explore a modern take on lifestyle, technology, and startup culture with our Next.js blog. 
+          We bring you concise, actionable insights and fresh ideas to help you stay informed and 
+          inspired in today’s ever-evolving world.
         </p>
         <form
           onSubmit={onSubmitHandler}
-          className="flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000] action="
+          className="flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]"
         >
           <input
             onChange={(event) => setEmail(event.target.value)}
